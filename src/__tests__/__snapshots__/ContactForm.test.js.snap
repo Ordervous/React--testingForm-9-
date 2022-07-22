@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match the snapshot 1`] = `
+<DocumentFragment>
+  <form
+    class=""
+    role="form"
+  >
+    <div
+      class="mb-3"
+      data-testid="formBasicName"
+    >
+      <label
+        class="form-label"
+      >
+        Name
+      </label>
+      <input
+        class="form-control"
+        data-testid="inputname"
+        placeholder="Enter name"
+        type="text"
+      />
+    </div>
+    <div
+      class="mb-3"
+    >
+      <label
+        class="form-label"
+        for="formBasicEmail"
+      >
+        Email address
+      </label>
+      <input
+        class="form-control"
+        id="formBasicEmail"
+        placeholder="Enter Email"
+        type="email"
+      />
+    </div>
+    <div
+      class="mb-3"
+    >
+      <label
+        class="form-label"
+        for="formBasicPhone"
+      >
+        Phone Number
+      </label>
+      <input
+        class="form-control"
+        id="formBasicPhone"
+        placeholder="Enter Phone"
+        type="number"
+      />
+    </div>
+    <button
+      class="btn btn-primary"
+      type="submit"
+    >
+      Add Contact
+    </button>
+  </form>
+</DocumentFragment>
+`;
